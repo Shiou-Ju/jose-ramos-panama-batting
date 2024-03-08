@@ -1,0 +1,155 @@
+
+## 預計欄位
+1. id
+   1.  以球為單位，不一定跟比賽時間順序相關
+   2.  Number
+       1.  increment
+2. inning
+   1. 局數，若為延長賽即 >9
+   2. Number
+3. out_count
+   1. 出局數
+   2. Enums
+      1. 0
+      2. 1
+      3. 2
+4. strike_count
+   1. 好球數
+   2. Enums
+      1. 0
+      2. 1
+      3. 2
+5. ball_count
+   1. 壞球數
+   2. Enums
+      1. 0
+      2. 1
+      3. 2
+      4. 3
+6. is_rhp
+   1. 左投右投
+   2. Boolean
+      1. true
+      2. false
+7. at_bat_result
+   1. 打席結果，若沒有則為 null
+   2. Enums
+      1. home_run
+         1. 全壘打
+      2. single
+         1. 一壘打
+      3. double
+         1. 二壘打
+      4. triple
+         1. 三壘打
+      5. fly_out
+         1. 飛球出局
+      6. ground_out
+         1. 滾地球出局
+      7. strike_out_called
+         1. 未出棒三振
+      8. strike_out_swing
+         1. 揮空三振
+      9.  dead_ball
+          1.  觸身球
+      10. based_on_ball
+          1.  四壞球
+8. pitch_type 
+   1. Enums
+      1. vertical
+         1. 縱向變化球
+      2. horizontal
+         1. 橫向變化球
+      3. off_speed
+         1. 變速球
+         2. 指叉球
+      4. fastball
+         1. 看不出明顯變化的直球
+      5. euphus
+         1. 速差極大的曲球等
+      6. sinker
+         1. 二縫線
+         2. 深卡
+      7. knuckler
+         1. 蝴蝶球
+9.  pitch_release
+   1. 出手點
+   2. Enums
+      1. high
+         1. 高壓
+      2. side_arm
+         1. 側投
+      3. submarine
+         1. 低肩
+10. is_obvious_off_zone
+   1. 明顯壞球，判斷是否追打
+   2. Boolean
+      1. true
+      2. false
+11. is_pitch_ended_catcher_want
+   1.  捕手有臨場感以及一定的情蒐資訊，假設捕手配球是針對打者不利的方向去進行，投手有無投到位置，也可作為有無失投的依據
+   2. Boolean
+      1. true
+      2. false
+12. has_swing
+   1. 是否出棒
+   2. Boolean
+      1. true
+      2. false
+13. has_swing_intention
+    1.  是否有出棒意圖，包含被 check swing 以及可見的揮棒動作
+    2.  Boolean
+      1. true
+      2. false  
+14. has_first_base_runner
+   1. 一壘有人
+   2. Boolean
+      1. true
+      2. false
+15. has_second_base_runner
+   1. 二壘有人
+   2. Boolean
+      1. true
+      2. false
+16. has_third_base_runner
+   1. 三壘有人
+   2. Boolean
+      1. true
+      2. false
+17. weather
+    1.  Enums
+        1.  sunny
+        2.  cloudy
+        3.  raining
+        4.  snowing
+18. game_time
+    1.  比賽時間
+    2.  Enums
+        1.  day
+        2.  night
+19. file_name
+   1. TODO: 可能一日雙重戰 需要正規化 
+20. has_check_swing
+21. RE24
+   1. 不確定有無這邊的分析可能 if possible
+22. has_stealing_attemp
+   1. 有無盜壘，判斷有無被影響
+   2. Boolean
+      1. true
+      2. false
+23. has_visible_shift
+   1. 從螢幕上看得出來的佈陣
+   2. Boolean
+      1. true
+      2. false
+24. commentator_note
+    1.  任何評論員的筆記
+    2.  string
+25. is_filename_result_consistent
+   1.  記錄檔名的結果，是否跟該打席一致，確認性質
+   2. Boolean
+      1. true
+      2. false
+
+
+
