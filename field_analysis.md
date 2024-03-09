@@ -154,6 +154,12 @@
    2. Boolean
       1. true
       2. false
+26. is_whiff
+    1.  記錄是否揮空，可以用來衡量好球是否為界外球，以及本壘板紀律
+    2. Boolean
+      1. true
+      2. false
+
 
 
 
