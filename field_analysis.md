@@ -128,7 +128,8 @@
         1.  day
         2.  night
 19. file_name
-   1. TODO: 可能一日雙重戰 需要正規化 
+   1. 可能一日雙重戰 
+   2. 已正規化 
 20. has_check_swing
     1.  即實際被請求壘審進行 check swing，不確定是否需要
     2.  Boolean
