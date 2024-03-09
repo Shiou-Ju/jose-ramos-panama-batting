@@ -130,6 +130,10 @@
 19. file_name
    1. TODO: 可能一日雙重戰 需要正規化 
 20. has_check_swing
+    1.  即實際被請求壘審進行 check swing，不確定是否需要
+    2.  Boolean
+      1. true
+      2. false
 21. RE24
    1. 不確定有無這邊的分析可能 if possible
 22. has_stealing_attemp
