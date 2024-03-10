@@ -176,8 +176,9 @@ https://en.wikipedia.org/wiki/List_of_Los_Angeles_Dodgers_minor_league_affiliate
       1. 26 筆第一球中，有`3 個打席`是這樣
 2. 影片分析
    1. 影片應該有隨機性，不然可能會影響分析的準確度
-   2. 已標記 16 部
-   3. 寫一個腳本從 `17-50` 中抽取去分析，一個打席 3.75 球，還需要 10 部影片
+   2. 在標記影片的時候已經依照壘打數的計算模式，去處理結果
+   3. 已標記 16 部
+   4. 寫一個腳本從 `17-50` 中抽取去分析，一個打席 3.75 球，還需要 10 部影片
       1. 已實作：
          1. [17, 22, 23, 27, 30, 34, 37, 39, 41, 45]
 3. 綜合評價
@@ -212,8 +213,6 @@ https://en.wikipedia.org/wiki/List_of_Los_Angeles_Dodgers_minor_league_affiliate
    1. 被動且不精確的 diff
    2. 可以 commit 的數量有限
 3. 自動增加 nth_pitch
-
-
 
 
 
