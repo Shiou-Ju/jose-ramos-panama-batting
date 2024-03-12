@@ -2,6 +2,7 @@
 ## 專案欄位資料
 
 ### pitches_df_cleaned.columns
+### pitches_df.columns
 ```
 Index(['id', 'abs_id', 'nth_pitch_ab', 'out_count', 'strike_count',
        'ball_count', 'is_rhp', 'has_stealing_attempt', 'pitch_type',
