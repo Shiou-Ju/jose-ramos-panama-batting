@@ -100,8 +100,6 @@
 
 
 
-
-
 ## 觀察後待驗證
 1. 壘上有人容易被高球吸引
    1. `2022-09-01 Jose Ramos VS 左投 打席1_三振.mp4`
@@ -193,6 +191,8 @@ https://en.wikipedia.org/wiki/List_of_Los_Angeles_Dodgers_minor_league_affiliate
 ## 參考衡量指標
 1. plate discipline
    1. https://library.fangraphs.com/offense/plate-discipline/
+2. 2-strike-o-swing%
+   1. https://pitcherlist.com/baseball-stats-glossary/
 
 
 ## 資料清洗步驟
