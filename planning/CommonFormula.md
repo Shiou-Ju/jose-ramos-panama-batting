@@ -24,6 +24,36 @@ Index(['id', 'abs_id', 'nth_pitch_ab', 'out_count', 'strike_count',
       dtype='object')
 ```
 
+## 25 宮格映射關係
+```
+	is_obvious_off_zone	horizontal_ending	vertical_ending	counts
+0	False	inside	high	5               -> 'F'
+1	False	inside	low	3               -> 'O'
+2	False	inside	middle	7         -> 'J'
+3	False	middle	high	7               -> 'E'
+4	False	middle	low	5               -> 'N'
+5	False	middle	middle	5           -> 'I'
+6	False	outside	high	6               -> 'D'
+7	False	outside	low	16               -> 'M'
+8	False	outside	middle	7        -> 'H'
+9	True	inside	high	5               -> 'C'
+10	True	inside	low	1                 -> 'P'
+11	True	middle	high	6                 -> 'B'
+12	True	middle	low	1                -> 'Q'
+13	True	outside	high	6                 -> 'A'
+14	True	outside	low	13               -> 'L'
+```
+
+###
+```
+### 25 宮格
+AABCC
+ADEFC
+GHIJK
+LMNOP
+LLQPP
+
+```
       
 
 ## 打擊數據
